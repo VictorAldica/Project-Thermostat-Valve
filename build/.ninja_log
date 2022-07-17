@@ -1,0 +1,11 @@
+# ninja log v5
+0	463	1658093084119089557	CMakeFiles/ProjectThermostatValve.dir/date/date.cpp.o	89e2194192516249
+1	468	1658093084121089571	CMakeFiles/ProjectThermostatValve.dir/scheduler/scheduler.cpp.o	ec77811a851792e7
+0	490	1658093084147089759	CMakeFiles/ProjectThermostatValve.dir/component/component.cpp.o	34a870037f3d9beb
+2	534	1658093084191090076	CMakeFiles/ProjectThermostatValve.dir/valve/valve.cpp.o	124f39a9e5e3ab0e
+0	545	1658093084203090163	CMakeFiles/ProjectThermostatValve.dir/src/main.cpp.o	2b5a67c1b19fa2f8
+1	562	1658093084221090293	CMakeFiles/ProjectThermostatValve.dir/thermostat/thermostat.cpp.o	5d5b49590d49b267
+1	578	1658093084236090401	CMakeFiles/ProjectThermostatValve.dir/room/room.cpp.o	3870ef9bbd8eb342
+1	586	1658093084242090444	CMakeFiles/ProjectThermostatValve.dir/sensor/sensor.cpp.o	a13a6b29e25bf065
+0	632	1658093084290090791	CMakeFiles/ProjectThermostatValve.dir/room_manager/room_manager.cpp.o	d34b425c778ab9af
+632	720	1658093084379091433	ProjectThermostatValve	d39ddbaa90d9e052

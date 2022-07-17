@@ -1,0 +1,47 @@
+[
+{
+  "directory": "/home/victor/Documents/Siemens/Project-Thermostat-Valve/build",
+  "command": "/usr/bin/clang++ -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/component -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/date -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/room -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/room_manager -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/scheduler -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/sensor -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/thermostat -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/valve -g -o CMakeFiles/ProjectThermostatValve.dir/src/main.cpp.o -c /home/victor/Documents/Siemens/Project-Thermostat-Valve/src/main.cpp",
+  "file": "/home/victor/Documents/Siemens/Project-Thermostat-Valve/src/main.cpp"
+},
+{
+  "directory": "/home/victor/Documents/Siemens/Project-Thermostat-Valve/build",
+  "command": "/usr/bin/clang++ -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/component -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/date -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/room -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/room_manager -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/scheduler -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/sensor -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/thermostat -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/valve -g -o CMakeFiles/ProjectThermostatValve.dir/component/component.cpp.o -c /home/victor/Documents/Siemens/Project-Thermostat-Valve/component/component.cpp",
+  "file": "/home/victor/Documents/Siemens/Project-Thermostat-Valve/component/component.cpp"
+},
+{
+  "directory": "/home/victor/Documents/Siemens/Project-Thermostat-Valve/build",
+  "command": "/usr/bin/clang++ -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/component -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/date -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/room -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/room_manager -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/scheduler -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/sensor -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/thermostat -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/valve -g -o CMakeFiles/ProjectThermostatValve.dir/date/date.cpp.o -c /home/victor/Documents/Siemens/Project-Thermostat-Valve/date/date.cpp",
+  "file": "/home/victor/Documents/Siemens/Project-Thermostat-Valve/date/date.cpp"
+},
+{
+  "directory": "/home/victor/Documents/Siemens/Project-Thermostat-Valve/build",
+  "command": "/usr/bin/clang++ -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/component -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/date -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/room -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/room_manager -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/scheduler -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/sensor -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/thermostat -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/valve -g -o CMakeFiles/ProjectThermostatValve.dir/room_manager/room_manager.cpp.o -c /home/victor/Documents/Siemens/Project-Thermostat-Valve/room_manager/room_manager.cpp",
+  "file": "/home/victor/Documents/Siemens/Project-Thermostat-Valve/room_manager/room_manager.cpp"
+},
+{
+  "directory": "/home/victor/Documents/Siemens/Project-Thermostat-Valve/build",
+  "command": "/usr/bin/clang++ -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/component -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/date -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/room -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/room_manager -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/scheduler -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/sensor -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/thermostat -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/valve -g -o CMakeFiles/ProjectThermostatValve.dir/room/room.cpp.o -c /home/victor/Documents/Siemens/Project-Thermostat-Valve/room/room.cpp",
+  "file": "/home/victor/Documents/Siemens/Project-Thermostat-Valve/room/room.cpp"
+},
+{
+  "directory": "/home/victor/Documents/Siemens/Project-Thermostat-Valve/build",
+  "command": "/usr/bin/clang++ -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/component -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/date -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/room -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/room_manager -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/scheduler -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/sensor -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/thermostat -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/valve -g -o CMakeFiles/ProjectThermostatValve.dir/scheduler/scheduler.cpp.o -c /home/victor/Documents/Siemens/Project-Thermostat-Valve/scheduler/scheduler.cpp",
+  "file": "/home/victor/Documents/Siemens/Project-Thermostat-Valve/scheduler/scheduler.cpp"
+},
+{
+  "directory": "/home/victor/Documents/Siemens/Project-Thermostat-Valve/build",
+  "command": "/usr/bin/clang++ -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/component -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/date -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/room -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/room_manager -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/scheduler -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/sensor -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/thermostat -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/valve -g -o CMakeFiles/ProjectThermostatValve.dir/sensor/sensor.cpp.o -c /home/victor/Documents/Siemens/Project-Thermostat-Valve/sensor/sensor.cpp",
+  "file": "/home/victor/Documents/Siemens/Project-Thermostat-Valve/sensor/sensor.cpp"
+},
+{
+  "directory": "/home/victor/Documents/Siemens/Project-Thermostat-Valve/build",
+  "command": "/usr/bin/clang++ -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/component -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/date -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/room -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/room_manager -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/scheduler -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/sensor -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/thermostat -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/valve -g -o CMakeFiles/ProjectThermostatValve.dir/thermostat/thermostat.cpp.o -c /home/victor/Documents/Siemens/Project-Thermostat-Valve/thermostat/thermostat.cpp",
+  "file": "/home/victor/Documents/Siemens/Project-Thermostat-Valve/thermostat/thermostat.cpp"
+},
+{
+  "directory": "/home/victor/Documents/Siemens/Project-Thermostat-Valve/build",
+  "command": "/usr/bin/clang++ -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/component -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/date -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/room -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/room_manager -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/scheduler -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/sensor -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/thermostat -I/home/victor/Documents/Siemens/Project-Thermostat-Valve/valve -g -o CMakeFiles/ProjectThermostatValve.dir/valve/valve.cpp.o -c /home/victor/Documents/Siemens/Project-Thermostat-Valve/valve/valve.cpp",
+  "file": "/home/victor/Documents/Siemens/Project-Thermostat-Valve/valve/valve.cpp"
+}
+]
