@@ -9,9 +9,13 @@ using std::vector;
 class Room {
 public:
   Room();
-  Room(string, float);
+  Room(string, float, int);
   //~Room();
+  void DefineSetPoint(float);
+  float GetRoomTemp();
   void whereami();
+  void SetFlowRate();
+  void GetValveInfo();
 
 private:
   string m_room_name;

@@ -26,5 +26,5 @@ void Thermostat::setTargetTemp(float target_temp)
 float Thermostat::getCurrentTemp()
 {
 
-    return m_sensor.getTemp();
+    return m_sensor.GetTemp();
 }

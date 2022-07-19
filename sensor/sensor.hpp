@@ -6,7 +6,7 @@ class Sensor : public Component {
 public:
   Sensor();
   //~Sensor();
-  float &getTemp();
+  float GetTemp();
 
 private:
   float m_temp = -1;

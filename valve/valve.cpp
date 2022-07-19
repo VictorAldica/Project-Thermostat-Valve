@@ -3,7 +3,7 @@
 Valve::Valve() {
   m_name = "Valve";
   m_desc = "DescValve.....";
-  m_flow_level = 0.0;
+  m_flow_level = -1.0;
 }
 
 Valve::Valve(float flow) {

@@ -8,8 +8,8 @@
 
 class Client {
 public:
-  Client();
-  ~Client();
+  //Client();
+  //~Client();
   void CreateSocket() {
     if ((sock = socket(AF_INET, SOCK_STREAM, 0)) < 0) {
       printf("\n Socket creation error \n");
