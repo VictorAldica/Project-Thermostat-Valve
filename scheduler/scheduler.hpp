@@ -1,18 +1,16 @@
 #pragma once
-#include <iostream>
 #include "../date/date.hpp"
+#include <iostream>
 
-class Scheduler
-{
-    private:
-    Date m_begin_date;   
-    Date m_end_date;
+class Scheduler {
+public:
+  Scheduler();
+  void SetBeginDate(Date);
+  void SetEndDate(Date);
+  //~Scheduler();
+  bool IsValid();
 
-    public:
-    Scheduler();
-    void SetBeginDate(Date);
-    void SetEndDate(Date);
-    //~Scheduler();
-    bool IsValid();
-
+private:
+  Date m_begin_date;
+  Date m_end_date;
 };

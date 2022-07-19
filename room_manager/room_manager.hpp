@@ -7,6 +7,6 @@ class RoomManager
 {
 private:
     std::vector<Room> m_rooms;
-public:
+
     
 };

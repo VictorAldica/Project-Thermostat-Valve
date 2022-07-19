@@ -2,13 +2,12 @@
 #include "../component/component.hpp"
 #include <stdlib.h>
 #include <time.h>
-class Sensor : public Component
-{
-private:
-    float m_temp=-1;
-
+class Sensor : public Component {
 public:
-    Sensor();
-    //~Sensor();
-    float &getTemp();
+  Sensor();
+  //~Sensor();
+  float &getTemp();
+
+private:
+  float m_temp = -1;
 };
