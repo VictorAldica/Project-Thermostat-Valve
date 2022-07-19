@@ -17,5 +17,13 @@ public:
     Date(int,int,int,int);
     Date(int,int,int,int,int);
     //~Date();
-    bool isValid();
+    bool IsValidDate();
+    bool IsValidHour();
+    bool IsLeapYear(int);
+    int getDay();
+    int getMonth();
+    int getYear();
+    int getHour();
+    int getMinute();
+    
 };
