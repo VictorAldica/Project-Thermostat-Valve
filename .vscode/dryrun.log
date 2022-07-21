@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/victor/Documents/Siemens/Project-Thermostat-Valve'
+g++ -std=c++17 -g -O0 -Wall -Wextra -fsanitize=address,undefined,signed-integer-overflow  src/*.cpp -o ProjectThermostatValve.out
+make: Leaving directory '/home/victor/Documents/Siemens/Project-Thermostat-Valve'
+ 
