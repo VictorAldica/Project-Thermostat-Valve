@@ -6,8 +6,8 @@ public:
   Valve();
   Valve(float);
   // ~Valve();
-  float getFlowLevel();
-  void setFlowLevel(float);
+  float GetFlowLevel();
+  void SetFlowLevel(float);
 
 private:
   float m_flow_level; // 0-1 range

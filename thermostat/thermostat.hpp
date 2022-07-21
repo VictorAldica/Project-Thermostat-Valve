@@ -7,9 +7,9 @@ public:
   Thermostat();
   Thermostat(float);
   // ~Thermostat();
-  float getCurrentTemp();
-  float getTargetTemp();
-  void setTargetTemp(float);
+  float GetCurrentTemp();
+  float GetTargetTemp();
+  void SetTargetTemp(float);
 
 private:
   float m_target_temp = -1;

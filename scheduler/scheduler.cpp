@@ -16,17 +16,17 @@ void Scheduler::SetEndDate(Date date) {
 
 bool Scheduler::IsValid() {
 
-  if (m_begin_date.getYear() < m_end_date.getYear())
+  if (m_begin_date.GetYear() < m_end_date.GetYear())
     return true;
-  else if (m_begin_date.getYear() == m_end_date.getYear()) {
-    if (m_begin_date.getMonth() < m_end_date.getMonth())
+  else if (m_begin_date.GetYear() == m_end_date.GetYear()) {
+    if (m_begin_date.GetMonth() < m_end_date.GetMonth())
       return true;
-    else if (m_begin_date.getMonth() == m_end_date.getMonth()) {
-      if (m_begin_date.getDay() < m_end_date.getDay())
+    else if (m_begin_date.GetMonth() == m_end_date.GetMonth()) {
+      if (m_begin_date.GetDay() < m_end_date.GetDay())
         return true;
-      else if (m_begin_date.getDay() == m_end_date.getDay())
-        return ((m_begin_date.getHour() * 60 + m_begin_date.getMinute()) <
-                (m_end_date.getHour() * 60 + m_end_date.getMinute()));
+      else if (m_begin_date.GetDay() == m_end_date.GetDay())
+        return ((m_begin_date.GetHour() * 60 + m_begin_date.GetMinute()) <
+                (m_end_date.GetHour() * 60 + m_end_date.GetMinute()));
     }
   }
 

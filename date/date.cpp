@@ -54,12 +54,12 @@ bool Date::IsValidHour() {
   return true;
 }
 
-int Date::getDay() { return m_day; }
+int Date::GetDay() { return m_day; }
 
-int Date::getMonth() { return m_month; }
+int Date::GetMonth() { return m_month; }
 
-int Date::getYear() { return m_year; }
+int Date::GetYear() { return m_year; }
 
-int Date::getHour() { return m_hour; }
+int Date::GetHour() { return m_hour; }
 
-int Date::getMinute() { return m_minute; }
+int Date::GetMinute() { return m_minute; }

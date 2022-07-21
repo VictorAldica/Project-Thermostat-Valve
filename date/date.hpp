@@ -13,11 +13,11 @@ public:
   bool IsValidDate();
   bool IsValidHour();
   bool IsLeapYear(int);
-  int getDay();
-  int getMonth();
-  int getYear();
-  int getHour();
-  int getMinute();
+  int GetDay();
+  int GetMonth();
+  int GetYear();
+  int GetHour();
+  int GetMinute();
 
 private:
   int m_day;

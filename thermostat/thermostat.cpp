@@ -13,17 +13,17 @@ Thermostat::Thermostat(float target_temp)
     m_target_temp = target_temp;
 }
 
-float Thermostat::getTargetTemp()
+float Thermostat::GetTargetTemp()
 {
     return m_target_temp;
 }
 
-void Thermostat::setTargetTemp(float target_temp)
+void Thermostat::SetTargetTemp(float target_temp)
 {
     m_target_temp = target_temp;
 }
 
-float Thermostat::getCurrentTemp()
+float Thermostat::GetCurrentTemp()
 {
 
     return m_sensor.GetTemp();

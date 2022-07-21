@@ -5,7 +5,7 @@ Sensor::Sensor()
     m_name="Sensor";
     m_desc="DescSensor...";
     srand(time(NULL));
-    m_temp=rand()%29+1;      
+    m_temp=rand()%20+11;      
 }
 
 float Sensor::GetTemp()

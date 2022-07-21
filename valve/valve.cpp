@@ -12,6 +12,6 @@ Valve::Valve(float flow) {
   m_flow_level = flow;
 }
 
-float Valve::getFlowLevel() { return m_flow_level; }
+float Valve::GetFlowLevel() { return m_flow_level; }
 
-void Valve::setFlowLevel(float lvl) { m_flow_level = lvl; }
+void Valve::SetFlowLevel(float lvl) { m_flow_level = lvl; }
