@@ -3,8 +3,10 @@
 int main() {
   Client C;
   C.Connect();
-  C.Send();
-  C.Receive();
+  while (true) {
+    C.Send();
+    C.Receive();
+  }
   C.Close();
 
   return 0;
