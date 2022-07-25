@@ -20,7 +20,7 @@ private:
   string ip = "127.0.0.1";
   int port = 5566;
   int client_sock;
-  string message = "hello from client";
+  string message = "Hello from client\n";
   struct sockaddr_in client_addr;
   socklen_t addr_size;
   char buffer[4096];

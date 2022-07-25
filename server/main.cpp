@@ -3,8 +3,8 @@
 int main() {
   Server S;
   S.Bind();
-  S.Connect();
   S.Listen();
+  S.Connect();
   S.CloseFD();
   while (true) {
     S.Receive();
