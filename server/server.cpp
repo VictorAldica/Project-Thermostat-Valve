@@ -32,13 +32,13 @@ void Server::Connect() {
   addr_size = sizeof(client_addr);
   client_sock =
       accept(server_sock, (struct sockaddr *)&client_addr, &addr_size);
-  printf("[+]Client connected.\n");
+  cout << "[+]Client connected.\n";
 }
 void Server::Receive() {
   int bytesReceived = recv(client_sock, buffer, sizeof(buffer), 0);
-  if (bytesReceived == -1)
+  if (bytesReceived <0 )
 
-    perror("Error in recv(). Quitting\n");
+   perror("Error in recv(). Quitting\n");
 
   if (bytesReceived == 0)
 
@@ -46,12 +46,11 @@ void Server::Receive() {
 
   cout << string(buffer, 0, bytesReceived) << "\n";
 }
-void Server::Send() {
-  send(client_sock, buffer, strlen(buffer), 0);
-}
+void Server::Send() { send(client_sock, buffer, strlen(buffer), 0); }
+
+void Server::CloseFD() { close(server_sock); }
 
 void Server::Close() {
-  close(server_sock);
   close(client_sock);
-  printf("[+]Client disconnected.\n\n");
+  cout << "[+]Client disconnected.\n\n";
 }

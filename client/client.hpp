@@ -19,9 +19,9 @@ public:
 private:
   string ip = "127.0.0.1";
   int port = 5566;
-  int sock;
+  int client_sock;
   string message = "hello from client";
-  struct sockaddr_in addr;
+  struct sockaddr_in client_addr;
   socklen_t addr_size;
-  char buffer[1024];
+  char buffer[4096];
 };

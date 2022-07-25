@@ -17,6 +17,7 @@ public:
   void Connect();
   void Send();
   void Receive();
+  void CloseFD();
   void Close();
 
 private:
@@ -24,6 +25,6 @@ private:
   int server_sock, client_sock;
   struct sockaddr_in server_addr, client_addr;
   socklen_t addr_size;
-  char buffer[1024];
+  char buffer[4096];
   int n;
 };
