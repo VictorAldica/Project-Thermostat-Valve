@@ -18,7 +18,7 @@ public:
 
 private:
   string ip = "127.0.0.1";
-  int port = 5566;
+  int port = 8080;
   int client_sock;
   string message = "Hello from client\n";
   struct sockaddr_in client_addr;

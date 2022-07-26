@@ -8,6 +8,7 @@ int main() {
   S.CloseFD();
   while (true) {
     S.Receive();
+    usleep(5000000);
     S.Send();
   }
 

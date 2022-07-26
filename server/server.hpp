@@ -25,7 +25,7 @@ public:
   void Close();
 
 private:
-  int port = 5566;
+  int port = 8080;
   int server_sock, client_sock;
   struct sockaddr_in server_addr, client_addr;
   socklen_t addr_size;
