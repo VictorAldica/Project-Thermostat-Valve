@@ -1,10 +1,13 @@
-#include <iostream>
+#pragma once
 #include <arpa/inet.h>
+#include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <string>
 #include <unistd.h>
-
+using std::cout;
+using std::string;
 class Client {
 public:
   Client();
@@ -14,10 +17,11 @@ public:
   void Close();
 
 private:
-  char *ip = "127.0.0.1";
-  int port = 5566;
-  int sock;
-  struct sockaddr_in addr;
+  string ip = "127.0.0.1";
+  int port = 8080;
+  int client_sock;
+  string message = "Hello from client\n";
+  struct sockaddr_in client_addr;
   socklen_t addr_size;
-  char buffer[1024];
+  char buffer[4096];
 };
